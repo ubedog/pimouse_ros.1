@@ -1,0 +1,9 @@
+<launch>
+  <arg name="robot" default="raspimouse1" />
+  <group ns"$(arg robot)">
+    <param name="lightsensors_freq" value="10" />
+    <node pkg="raspimouse_ros" name="lightsensors" type="rtlightsensors.py" required="true" />
+    <param name="buzzer_freq" value="10" />
+    <node pkg="raspimouse_ros" name="buzzer" type="rtbuzzer.py" required="true" />
+  </group>
+</launch>

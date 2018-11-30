@@ -3,10 +3,6 @@
   <name>pimouse_ros</name>
   <version>0.0.0</version>
   <description>The pimouse_ros package</description>
-  <maintainer email="ubedog180416@gmail.com">Kaoru Akira</maintainer>
-  <license>BSD</license>
-  <url type="website">https://github.com/ryuichiueda/raspimouse_book_info</url>
-  <author email="ubedog180416@gmail.com">Kaoru Akira</author>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
